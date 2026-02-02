@@ -1,0 +1,35 @@
+:root { --border:#ddd; --muted:#666; }
+body { font-family: system-ui, Arial; margin:0; background:#fff; }
+.topbar {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:14px 18px; border-bottom:1px solid var(--border);
+}
+.container { max-width: 950px; margin: 18px auto; padding: 0 14px; }
+.card { border:1px solid var(--border); border-radius:12px; padding:16px; margin: 14px 0; }
+.grid { display:flex; gap:12px; flex-wrap:wrap; }
+.grid > div { flex:1; min-width:260px; }
+.row { display:flex; gap:10px; margin-top:12px; flex-wrap:wrap; }
+label { display:block; font-size:14px; margin:10px 0 6px; }
+input, select, button { padding:10px; font-size:14px; }
+input, select { width:100%; box-sizing:border-box; }
+button { cursor:pointer; }
+.muted { color:var(--muted); font-size:13px; }
+.hidden { display:none; }
+.days { display:flex; flex-wrap:wrap; gap:10px; margin-top:6px; }
+.days label { display:flex; gap:6px; align-items:center; margin:0; font-size:14px; }
+.tablewrap { overflow:auto; margin-top:10px; }
+table { width:100%; border-collapse:collapse; }
+th, td { border-bottom:1px solid #eee; padding:10px; text-align:left; }
+hr { border:none; border-top:1px solid #eee; margin:16px 0; }
+.authline { display:flex; gap:12px; align-items:center; }
+.pw-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pw-toggle {
+  padding: 10px;
+  font-size: 13px;
+  white-space: nowrap;
+}
