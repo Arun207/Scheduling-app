@@ -25,6 +25,10 @@
     <!-- LOGIN -->
     <section class="card" id="authCard">
       <h2>Login</h2>
+      <p class="muted">
+        Employees sign in with their email and temporary password. Managers can create
+        employee accounts and export the combined schedule to Excel.
+      </p>
       <div class="grid">
         <div>
           <label>Email</label>
@@ -46,6 +50,10 @@
     <section class="card hidden" id="employeeCard">
       <h2>Employee Availability</h2>
       <p class="muted" id="weekInfo"></p>
+      <p class="muted">
+        Submit your availability for the active week. Each week replaces the last one,
+        so be sure to update before the deadline.
+      </p>
 
       <label>Name</label>
       <input id="empName" type="text" placeholder="Your name" />
@@ -103,6 +111,9 @@
     <section class="card hidden" id="managerCard">
       <h2>Manager Dashboard</h2>
       <p class="muted" id="managerWeekInfo"></p>
+      <p class="muted">
+        Only managers can view the combined schedule and export the Excel file.
+      </p>
 
       <h3>Add Employee</h3>
       <div class="grid">
